@@ -8,7 +8,7 @@ Declare Function GetString ( StringType As Integer) As String
 
 '++LotusScript Development Environment:2:1:GetString:1:8
 Function GetString ( StringType As Integer) As String
-     '
+     ' 08-July-2105
 	Select Case StringType
 	Case 1  ' WebAddtopic, WebExpire
 		GetString = "Back to Previous Document"
